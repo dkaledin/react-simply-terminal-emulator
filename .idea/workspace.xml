@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="119e54df-daed-46ae-a81b-0d8f4e28aa7c" name="Default" comment="" />
+    <list default="true" id="119e54df-daed-46ae-a81b-0d8f4e28aa7c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../react-simply-terminal-emulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../react-simply-terminal-emulator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-simply-terminal-emulator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-simply-terminal-emulator/package.json" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../react-simply-terminal-emulator/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="279">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -144,6 +147,9 @@
       <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../react-simply-terminal-emulator" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -176,8 +182,8 @@
         <option value="$PROJECT_DIR$/../react-simply-terminal-emulator/tslint.json" />
         <option value="$PROJECT_DIR$/../react-simply-terminal-emulator/example/index.tsx" />
         <option value="$PROJECT_DIR$/../react-simply-terminal-emulator/tsconfig.json" />
-        <option value="$PROJECT_DIR$/../react-simply-terminal-emulator/package.json" />
         <option value="$PROJECT_DIR$/../react-simply-terminal-emulator/webpack.config.js" />
+        <option value="$PROJECT_DIR$/../react-simply-terminal-emulator/package.json" />
       </list>
     </option>
   </component>
@@ -189,6 +195,7 @@
     <option name="width" value="1394" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -201,6 +208,21 @@
             <path>
               <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
@@ -283,12 +305,12 @@
       <workItem from="1546977214331" duration="5270000" />
       <workItem from="1547061806452" duration="6677000" />
       <workItem from="1547150321620" duration="6401000" />
-      <workItem from="1547305656498" duration="27535000" />
+      <workItem from="1547305656498" duration="28014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47926000" />
+    <option name="totallyTimeSpent" value="48405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="0" />
@@ -304,7 +326,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32971507" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
@@ -316,6 +338,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/Button/Button.d.ts" />
@@ -610,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../react-simply-terminal-emulator/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="279">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
         </state>
       </provider>
     </entry>
