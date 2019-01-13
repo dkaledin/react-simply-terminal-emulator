@@ -1,0 +1,13 @@
+.terminal__box {
+    font-family: monospace;
+    display: flex;
+    background-color: #44494e;
+    font-weight: bold;
+    height: 400px;
+}
+
+.terminal__container {
+    font-size: 14px;
+    color: #20e444;
+    padding: 8px;
+}

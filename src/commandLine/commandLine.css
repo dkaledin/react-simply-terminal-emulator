@@ -1,0 +1,12 @@
+.command-line__input {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: #44494e;
+    border: none;
+    color: #20e444;
+    font-size: 14px;
+    margin-left: 4px;
+    outline: none;
+    z-index: -1;
+    position: absolute;
+}

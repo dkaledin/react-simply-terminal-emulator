@@ -1,0 +1,12 @@
+.caret__caret {
+    background-color: #20e444;
+}
+
+.caret__caret-blinked {
+    background-color: #44494e;
+    color: #44494e;
+}
+
+.caret__caret-with-symbol {
+    color: #20e444;
+}
