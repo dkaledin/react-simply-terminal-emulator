@@ -6,8 +6,9 @@
     "react-dom": "16.7.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --progress",
-    "build": "tsc"
+    "start": "webpack-dev-server --progress --config webpack.dev.js",
+    "build": "tsc",
+    "build-demo": "webpack --config webpack.prod.js"
   },
   "devDependencies": {
     "@types/jest": "23.3.12",
@@ -24,7 +25,8 @@
     "typescript": "3.2.2",
     "webpack": "4.28.1",
     "webpack-cli": "3.2.1",
-    "webpack-dev-server": "3.1.14"
+    "webpack-dev-server": "3.1.14",
+    "webpack-merge": "4.2.1"
   },
   "main": "lib/index.js",
   "license": "MIT"

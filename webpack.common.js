@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
-	mode: 'development',
 	entry: './example/index.tsx',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
@@ -26,10 +25,6 @@ module.exports = {
 				use: [ "style-loader", "css-loader" ],
 			},
 		]
-	},
-	devtool: 'inline-source-map',
-	devServer: {
-		contentBase: './dist'
 	},
 	plugins: [
 		new CleanWebpackPlugin([ 'dist' ]),
