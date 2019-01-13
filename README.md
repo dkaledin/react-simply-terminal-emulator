@@ -1,5 +1,6 @@
 # react-simply-terminal-emulator
-React terminal emulator
+
+Simple React terminal emulator with the caret like real Terminal
 
 # Example
 
