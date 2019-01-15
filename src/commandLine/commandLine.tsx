@@ -95,7 +95,7 @@ export class CommandLine extends React.Component<ICommandLineOwnProps, ICommandL
 
     private handleEnterKeyPress = (event: KeyboardEvent) => {
         if (event.key === 'Enter') {
-            this.props.onSubmit(this.state.commandString);
+            this.props.onReceiveCommand(this.state.commandString);
             this.setState({
                 commandString: '',
                 caretPosition: 0,
