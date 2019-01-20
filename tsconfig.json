@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
-    "module": "esnext",
+    "outFile": "lib/terminal.js",
+    "module": "amd",
     "target": "es5",
     "lib": [
       "es6",

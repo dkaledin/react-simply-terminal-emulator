@@ -1,17 +1,7 @@
 import * as React from 'react';
-import {CommandLine} from './commandLine/commandLine';
-import './terminal.css';
-import {BasicEmulator, CommandExecutor} from './helper/emulator';
-
-interface ITerminalOwnProps {
-    history: string[];
-    onReceiveCommand?: (command: string) => void;
-    prompt: string;
-}
-
-interface ITerminalState {
-    history: string[];
-}
+import {TerminalStateless} from './components/terminalStateless';
+import {ITerminalOwnProps, ITerminalState} from './terminal.interface';
+import {terminalEmulator} from './terminalEmulator/terminalEmulator';
 
 export class Terminal extends React.Component<ITerminalOwnProps, ITerminalState> {
     public static defaultProps: ITerminalOwnProps = {
@@ -21,27 +11,21 @@ export class Terminal extends React.Component<ITerminalOwnProps, ITerminalState>
 
     public state: ITerminalState = {
         history: this.props.history,
+        prompt: this.props.prompt,
     };
 
-    private readonly executor: CommandExecutor;
-
-    constructor(props: ITerminalOwnProps) {
-        super(props);
-
-        this.executor = BasicEmulator;
-    }
-
     public render() {
+        const {history, prompt} = this.state;
         return (
-            <div className="terminal__box">
-                <div className="terminal__container">
-                    {this.state.history.map((line, index) =>
-                        <div key={index}>{line}</div>)}
-                    <CommandLine onReceiveCommand={this.handleReceiveCommand} prompt={this.props.prompt}/>
-                </div>
-            </div>
+            <TerminalStateless
+                history={history}
+                prompt={prompt}
+                onReceiveCommand={this.handleReceiveCommand}
+            />
         );
     }
 
-    private handleReceiveCommand = (command: string) => this.setState(this.executor(command));
+    private handleReceiveCommand = (command: string) => {
+        terminalEmulator.execute(command, this.setState.bind(this));
+    };
 }
