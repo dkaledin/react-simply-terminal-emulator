@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {ICaretOwnProps, ICaretState} from './caret.interface';
 
-import './caret.css';
+import * as styles from './caret.style';
 
 export class Caret extends React.Component<ICaretOwnProps, ICaretState> {
     public state: ICaretState = {
@@ -14,10 +14,10 @@ export class Caret extends React.Component<ICaretOwnProps, ICaretState> {
 
         const caretSymbol = commandString[caretPosition] === undefined
             ? 'C'
-            : <span className="caret__caret-with-symbol">{commandString[caretPosition]}</span>;
+            : <span style={styles.caretCaretWithSymbol}>{commandString[caretPosition]}</span>;
 
         return (
-            <span key={'caret'} className={this.getCaretStyles()}>{caretSymbol}</span>
+            <span key={'caret'} style={this.getCaretStyles()}>{caretSymbol}</span>
         );
     }
 
@@ -33,9 +33,9 @@ export class Caret extends React.Component<ICaretOwnProps, ICaretState> {
         clearInterval(this.interval);
     }
 
-    private getCaretStyles() {
+    private getCaretStyles(): React.CSSProperties {
         return this.state.blinked
-            ? 'caret__caret-blinked'
-            : 'caret__caret';
+            ? styles.caretCaretBlinked
+            : styles.caretCaret;
     }
 }

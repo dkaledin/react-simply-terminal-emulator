@@ -5,7 +5,7 @@ import {
 } from './commandLine.interface';
 import {Caret} from './components/caret';
 
-import './commandLine.css';
+import * as styles from './commandLine.style';
 
 export class CommandLine extends React.Component<ICommandLineOwnProps, ICommandLineState> {
     public state: ICommandLineState = {
@@ -25,7 +25,7 @@ export class CommandLine extends React.Component<ICommandLineOwnProps, ICommandL
                 {this.renderCommandLive()}
                 <input
                     type="text"
-                    className="command-line__input"
+                    style={styles.commandLineInput}
                     onChange={this.handleInputChange}
                     autoFocus={true}
                     ref={this.inputRef}

@@ -1,10 +1,9 @@
 import * as React from 'react';
 import {TerminalStateless} from './components/terminalStateless';
 import {ITerminalOwnProps, ITerminalState} from './terminal.interface';
-import {terminalEmulator} from './terminalEmulator/terminalEmulator';
 
 export class Terminal extends React.Component<ITerminalOwnProps, ITerminalState> {
-    public static defaultProps: ITerminalOwnProps = {
+    public static defaultProps: Pick<ITerminalOwnProps, 'history' | 'prompt'> = {
         history: [],
         prompt: '$',
     };
@@ -26,6 +25,6 @@ export class Terminal extends React.Component<ITerminalOwnProps, ITerminalState>
     }
 
     private handleReceiveCommand = (command: string) => {
-        terminalEmulator.execute(command, this.setState.bind(this));
+        this.props.terminalEmulator.execute(command, this.setState.bind(this));
     };
 }

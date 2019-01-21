@@ -5,10 +5,9 @@ export interface ITerminalOwnProps {
         execute: (command: string, setState: SetState) => void;
     };
 }
-
 export interface ITerminalState {
     history: string[];
     prompt: string;
 }
-
-type SetState = (prevState: (state: ITerminalState, props: ITerminalOwnProps) => ITerminalState) => void;
+declare type SetState = (prevState: (state: ITerminalState, props: ITerminalOwnProps) => ITerminalState) => void;
+export {};

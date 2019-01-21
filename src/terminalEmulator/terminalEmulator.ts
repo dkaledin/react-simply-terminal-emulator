@@ -12,6 +12,10 @@ export class TerminalEmulator {
         this.executors = params.executors;
     }
 
+    public addExecutor(executor: BaseExecutor) {
+        this.executors.push(executor);
+    }
+
     public execute(command: string, setState: SetState): void {
         this.command = command.trim();
 
