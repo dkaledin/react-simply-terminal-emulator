@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../react-simply-terminal-emulator/.idea/react-simply-terminal-emulator.iml" filepath="$PROJECT_DIR$/../react-simply-terminal-emulator/.idea/react-simply-terminal-emulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-simply-terminal-emulator.iml" filepath="$PROJECT_DIR$/.idea/react-simply-terminal-emulator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-simply-terminal-emulator.iml" filepath="$PROJECT_DIR$/.idea/react-simply-terminal-emulator.iml" />
     </modules>
   </component>
 </project>

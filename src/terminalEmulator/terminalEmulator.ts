@@ -28,9 +28,7 @@ export class TerminalEmulator {
             if (matchedExecutor) {
                 this.ranExecutor = matchedExecutor;
                 this.ranExecutor.execute(command, setState);
-            } else if (command === '') {
-                this.emptyExecutor(setState);
-            } else {
+            } else if (command !== '') {
                 this.errorExecutor(setState);
             }
         }
@@ -40,19 +38,7 @@ export class TerminalEmulator {
         setState((state, props) => ({
             history: [
                 ...state.history,
-                `${props.prompt} ${this.command}`,
                 `Terminal: Unknown command '${this.command}'`,
-            ],
-            prompt: props.prompt,
-        }));
-    }
-
-    // TODO: Move this method to BaseExecutor
-    private emptyExecutor(setState: SetState): void {
-        setState((state, props) => ({
-            history: [
-                ...state.history,
-                `${props.prompt} ${this.command}`,
             ],
             prompt: props.prompt,
         }));

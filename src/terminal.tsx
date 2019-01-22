@@ -25,6 +25,13 @@ export class Terminal extends React.Component<ITerminalOwnProps, ITerminalState>
     }
 
     private handleReceiveCommand = (command: string) => {
-        this.props.terminalEmulator.execute(command, this.setState.bind(this));
+        this.setState(prevState => ({
+            history: [
+                ...prevState.history,
+                `${prevState.prompt} ${command}`,
+            ],
+        }), () => {
+            this.props.terminalEmulator.execute(command, this.setState.bind(this));
+        });
     };
 }

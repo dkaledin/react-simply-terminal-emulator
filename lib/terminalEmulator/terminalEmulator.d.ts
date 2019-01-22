@@ -8,6 +8,5 @@ export declare class TerminalEmulator {
     addExecutor(executor: BaseExecutor): void;
     execute(command: string, setState: SetState): void;
     private errorExecutor;
-    private emptyExecutor;
 }
 export declare const terminalEmulator: TerminalEmulator;

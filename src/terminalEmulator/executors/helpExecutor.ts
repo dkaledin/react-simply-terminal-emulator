@@ -12,7 +12,6 @@ export class HelpExecutor extends BaseExecutor {
         setState((prevState, props) => ({
             history: [
                 ...prevState.history,
-                `${props.prompt} ${command}`,
                 'This is the Help program!',
             ],
             prompt: props.prompt,

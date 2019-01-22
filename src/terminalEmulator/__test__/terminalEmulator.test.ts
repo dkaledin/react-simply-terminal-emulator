@@ -22,7 +22,6 @@ describe('TerminalEmulator', () => {
         const undefinedCommand = 'undefined command';
         const setStateMock = createSetStateMock({
             history: [
-                `${defaultPrompt} ${undefinedCommand}`,
                 `Terminal: Unknown command '${undefinedCommand}'`,
             ],
             prompt: defaultPrompt,
@@ -33,7 +32,7 @@ describe('TerminalEmulator', () => {
         expect(setStateMock).toHaveBeenCalledTimes(1);
     });
 
-    it('should execute emptyExecutor command', () => {
+    it('should return history with default prompt and empty command', () => {
         const emptyCommand = '';
         const setStateMock = createSetStateMock({
             history: [
@@ -42,7 +41,5 @@ describe('TerminalEmulator', () => {
             prompt: defaultPrompt,
         });
         terminalEmulator.execute(emptyCommand, setStateMock);
-
-        expect(setStateMock).toHaveBeenCalledTimes(1);
     });
 });

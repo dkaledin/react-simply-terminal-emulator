@@ -1,2 +1,4 @@
 export {Terminal} from './terminal';
-export {terminalEmulator} from './terminalEmulator/terminalEmulator';
+export {terminalEmulator, TerminalEmulator} from './terminalEmulator/terminalEmulator';
+export {BaseExecutor} from './terminalEmulator/executors/baseExecutor';
+export {SetState} from './terminalEmulator/terminalEmulator.interface';
