@@ -15,11 +15,14 @@ export class Terminal extends React.Component<ITerminalOwnProps, ITerminalState>
 
     public render() {
         const {history, prompt} = this.state;
+        const {height, width} = this.props;
         return (
             <TerminalStateless
                 history={history}
                 prompt={prompt}
                 onReceiveCommand={this.handleReceiveCommand}
+                height={height}
+                width={width}
             />
         );
     }

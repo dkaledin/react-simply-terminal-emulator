@@ -4,6 +4,8 @@ export interface ITerminalOwnProps {
     terminalEmulator: {
         execute: (command: string, setState: SetState) => void;
     };
+    height?: string;
+    width?: string;
 }
 export interface ITerminalState {
     history: string[];

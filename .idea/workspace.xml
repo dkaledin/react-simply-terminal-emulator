@@ -2,14 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119e54df-daed-46ae-a81b-0d8f4e28aa7c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/react-simply-terminal-emulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simplywallst.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/demo/main.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/demo/main.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/commandLine/commandLine.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/commandLine/commandLine.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/terminalStateless.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/terminalStateless.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/terminalStateless.interface.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/terminalStateless.interface.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/terminalStateless.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/terminalStateless.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/terminalStateless.style.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/terminalStateless.style.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/components/terminalStateless.style.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/terminalStateless.style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminal.interface.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminal.interface.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/executors/baseExecutor.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/executors/baseExecutor.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/executors/baseExecutor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/executors/baseExecutor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/executors/clearExecutor.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/executors/clearExecutor.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/executors/clearExecutor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/executors/clearExecutor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/executors/helpExecutor.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/executors/helpExecutor.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/executors/helpExecutor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/executors/helpExecutor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/terminalEmulator.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/terminalEmulator.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/terminalEmulator/terminalEmulator.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/terminalEmulator/terminalEmulator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/commandLine/commandLine.style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/commandLine/commandLine.style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/terminalStateless.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminalStateless.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/terminalStateless.style.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminalStateless.style.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/terminalStateless.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminalStateless.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminal.interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminal.interface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/terminal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/terminalEmulator/__test__/terminalEmulator.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminalEmulator/__test__/terminalEmulator.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts" afterDir="false" />
     </list>
@@ -31,10 +49,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.style.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -43,91 +124,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.ts">
+        <entry file="file://$PROJECT_DIR$/example/assets/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/demo/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/__test__/terminalEmulator.test.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.interface.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" selection-start-line="3" selection-end-line="18" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/terminal.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="404" column="8" selection-start-line="404" selection-start-column="8" selection-end-line="404" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,8 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/commandLine/components/caret.css" />
-        <option value="$PROJECT_DIR$/src/commandLine/components/Caret.tsx" />
         <option value="$PROJECT_DIR$/src/commandLine/CommandLine.tsx" />
         <option value="$PROJECT_DIR$/src/Terminal.tsx" />
         <option value="$PROJECT_DIR$/src/commandLine/components/caret.interface.ts" />
@@ -223,25 +235,27 @@
         <option value="$PROJECT_DIR$/src/terminalEmulator/executor/clearExecutor.ts" />
         <option value="$PROJECT_DIR$/src/terminalEmulator/executor/cvExecutor.ts" />
         <option value="$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.interface.ts" />
-        <option value="$PROJECT_DIR$/src/components/terminalStateless.style.ts" />
-        <option value="$PROJECT_DIR$/src/components/commandLine/commandLine.style.ts" />
         <option value="$PROJECT_DIR$/src/components/commandLine/commandLine.tsx" />
         <option value="$PROJECT_DIR$/src/components/commandLine/components/caret.style.ts" />
         <option value="$PROJECT_DIR$/src/components/commandLine/components/caret.tsx" />
-        <option value="$PROJECT_DIR$/src/components/terminalStateless.interface.ts" />
-        <option value="$PROJECT_DIR$/src/components/terminalStateless.tsx" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/terminal.interface.ts" />
         <option value="$PROJECT_DIR$/example/index.tsx" />
         <option value="$PROJECT_DIR$/example/index.tsx" />
         <option value="$PROJECT_DIR$/jest.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.ts" />
-        <option value="$PROJECT_DIR$/src/terminal.tsx" />
-        <option value="$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts" />
-        <option value="$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts" />
         <option value="$PROJECT_DIR$/src/terminalEmulator/__test__/terminalEmulator.test.ts" />
+        <option value="$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts" />
+        <option value="$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts" />
+        <option value="$PROJECT_DIR$/src/components/commandLine/commandLine.style.ts" />
+        <option value="$PROJECT_DIR$/src/components/terminalStateless.interface.ts" />
+        <option value="$PROJECT_DIR$/src/terminal.interface.ts" />
+        <option value="$PROJECT_DIR$/src/terminal.tsx" />
+        <option value="$PROJECT_DIR$/src/components/terminalStateless.tsx" />
+        <option value="$PROJECT_DIR$/src/components/terminalStateless.style.ts" />
+        <option value="$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts" />
+        <option value="$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts" />
       </list>
     </option>
   </component>
@@ -268,47 +282,6 @@
             <path>
               <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@types" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="terminalEmulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-simply-terminal-emulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-simply-terminal-emulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="terminalEmulator" type="462c0819:PsiDirectoryNode" />
-              <item name="__test__" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,7 +373,9 @@
       <workItem from="1547967368768" duration="11030000" />
       <workItem from="1548052430679" duration="179000" />
       <workItem from="1548183559550" duration="722000" />
-      <workItem from="1548184298078" duration="1884000" />
+      <workItem from="1548184298078" duration="1954000" />
+      <workItem from="1548362848665" duration="1095000" />
+      <workItem from="1548498886210" duration="4870000" />
     </task>
     <task id="LOCAL-00001" summary="CSS for Example page">
       <created>1547968039953</created>
@@ -413,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98897000" />
+    <option name="totallyTimeSpent" value="104932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1394" height="877" extended-state="6" />
@@ -501,27 +476,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="CSS for Example page" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/helper/commands/help.ts" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="6" column="95" selection-start-line="6" selection-start-column="95" selection-end-line="6" selection-end-column="95" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/emulator.ts" />
     <entry file="file://$PROJECT_DIR$/src/helper/objectPath.ts" />
     <entry file="file://$PROJECT_DIR$/src/helper/__test__/objectPath.test.ts" />
-    <entry file="file://$PROJECT_DIR$/src/components/commandLine/commandLine.interface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executor/cvExecutor.ts" />
     <entry file="file://$PROJECT_DIR$/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -548,24 +504,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/example/assets/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/terminal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/commandLine/commandLine.style.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -592,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.style.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/commandLine/commandLine.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-963">
@@ -616,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -634,13 +559,6 @@
             <element signature="e#65777#65850#0" expanded="true" />
             <element signature="e#65911#65975#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.interface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -681,24 +599,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/terminal.interface.ts">
+    <entry file="file://$PROJECT_DIR$/jest.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/index.css">
+    <entry file="file://$PROJECT_DIR$/src/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
+    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/__test__/terminalEmulator.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+        <state relative-caret-position="588">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -709,78 +627,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/commandLine/commandLine.style.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="252">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/commandLine/commandLine.interface.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
-          <caret line="3" selection-start-line="3" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/typescript/lib/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="224">
+          <caret line="4899" column="26" lean-forward="true" selection-start-line="4899" selection-start-column="26" selection-end-line="4899" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="404" column="8" selection-start-line="404" selection-start-column="8" selection-end-line="404" selection-end-column="8" />
+        <state relative-caret-position="195">
+          <caret line="354" column="63" lean-forward="true" selection-start-line="354" selection-start-column="63" selection-end-line="354" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/csstype/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="3696" column="2" selection-start-line="3696" selection-start-column="2" selection-end-line="3696" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terminal.interface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/terminal.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="399">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="735">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/terminalStateless.style.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="147">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts">
+    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/clearExecutor.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="210">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/__test__/terminalEmulator.test.ts">
+    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/helpExecutor.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="144">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/executors/baseExecutor.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/terminalEmulator/terminalEmulator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>

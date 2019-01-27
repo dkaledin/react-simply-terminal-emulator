@@ -2,12 +2,6 @@ import {SetState} from '../terminalEmulator.interface';
 import {BaseExecutor} from './baseExecutor';
 
 export class HelpExecutor extends BaseExecutor {
-    constructor() {
-        super();
-
-        this.commandPattern = new RegExp('^help$', 'i');
-    }
-
     public execute(command: string, setState: SetState): void {
         setState((prevState, props) => ({
             history: [
@@ -20,5 +14,9 @@ export class HelpExecutor extends BaseExecutor {
 
     public isCompleted(): boolean {
         return true;
+    }
+
+    protected getCommandPattern(): RegExp {
+        return /^help$/i;
     }
 }

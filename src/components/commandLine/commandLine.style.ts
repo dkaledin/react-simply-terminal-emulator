@@ -11,4 +11,5 @@ export const commandLineInput: CSSProperties = {
     outline: 'none',
     zIndex: -1,
     position: 'absolute',
+    left: '-1000px',
 };

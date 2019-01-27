@@ -6,7 +6,7 @@ import {ICommandExecutor, SetState} from './terminalEmulator.interface';
 export class TerminalEmulator {
     private command: string;
     private readonly executors: BaseExecutor[];
-    private ranExecutor: BaseExecutor;
+    private currentExecutor: BaseExecutor;
 
     constructor(params: ICommandExecutor) {
         this.executors = params.executors;
@@ -19,15 +19,16 @@ export class TerminalEmulator {
     public execute(command: string, setState: SetState): void {
         this.command = command.trim();
 
-        if (this.ranExecutor && !this.ranExecutor.isCompleted()) {
-            this.ranExecutor.execute(command, setState);
+        if (this.currentExecutor && !this.currentExecutor.isCompleted()) {
+            this.currentExecutor.execute(command, setState);
         } else {
             const matchedExecutor = this.executors.find(
                 executor => executor.checkCommand(command));
 
             if (matchedExecutor) {
-                this.ranExecutor = matchedExecutor;
-                this.ranExecutor.execute(command, setState);
+                this.currentExecutor = matchedExecutor;
+                this.currentExecutor.init();
+                this.currentExecutor.execute(command, setState);
             } else if (command !== '') {
                 this.errorExecutor(setState);
             }
